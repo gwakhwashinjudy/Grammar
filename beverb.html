@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[be동사편] 영문법 개념 정복 Test</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; color: #333; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f8fafc; }
+        .header { border: 2px solid #2b4c7e; padding: 15px; margin-bottom: 25px; background-color: #f4f7fa; text-align: center; border-radius: 6px; }
+        .title { font-size: 16pt; font-weight: bold; color: #2b4c7e; margin: 0; }
+        .sub { font-size: 10pt; color: #555; margin-top: 5px; }
+        
+        .level-title { font-size: 12pt; font-weight: bold; color: #fff; background-color: #2b4c7e; padding: 8px 12px; margin-top: 30px; margin-bottom: 15px; border-radius: 4px; }
+        .q-card { background: #fff; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .q-text { font-weight: bold; color: #111; font-size: 11pt; margin-bottom: 10px; }
+        .sub-q { margin-left: 10px; margin-bottom: 5px; color: #444; }
+        
+        /* 버튼 스타일 */
+        .btn-next { background-color: #2b4c7e; color: white; border: none; padding: 6px 12px; font-size: 9.5pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 8px; display: inline-block; }
+        .btn-next:hover { background-color: #1a365d; }
+        
+        /* 정답 상자 스타일 */
+        .ans-box { display: none; margin-top: 12px; padding: 12px; background-color: #fff5f5; border-left: 4px solid #e74c3c; border-radius: 0 4px 4px 0; color: #c0392b; font-weight: bold; font-size: 10pt; }
+        .ans-box ul { margin: 5px 0 0 0; padding-left: 20px; }
+        .ans-box li { margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">[중1-중3 be동사편] 영문법 레벨업 Test</div>
+        <div class="sub">“기초 상태 표현부터 심화 조동사 역할까지 완벽 정복”</div>
+    </div>
+
+    <!-- LEVEL 1 -->
+    <div class="level-title">■ LEVEL 1 (중등 1학년 수준: be동사의 진짜 정체와 2대 해석법)</div>
+    
+    <div class="q-card">
+        <div class="q-text">1. 일반동사(run, love, eat 등)는 구체적인 '행동'을 나타냅니다. 그렇다면 be동사는 주어의 무엇을 나타내는 동사인지 본질적인 정체를 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 정답: 주어의 **[ 존재 ]**나 **[ 상태 ]**를 나타내는 동사입니다.<br>
+            일반동사처럼 눈에 보이는 역동적인 움직임이 아니라, 주어가 '무엇인지' 혹은 '어떤 상태인지'를 가만히 보여주는 뼈대 역할을 합니다.
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">2. be동사가 문장에서 해석되는 대표적인 뜻 2가지를 뒤에 오는 품사(재료)와 연결하여 서술하시오.</div>
+        <div class="sub-q">(A) be동사 뒤에 [명사]가 앉을 때의 해석:</div>
+        <div class="sub-q">(B) be동사 뒤에 [장소 전치사구]가 앉을 때의 해석:</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) **“~이다”** (예: I am a teacher. ➔ 나는 선생님이다.)<br>
+            • (B) **“~에 있다”** (예: I am in the classroom. ➔ 나는 교실에 있다.)<br>
+            ※ 참고: 형용사가 올 때는 형용사(~한)와 합쳐져 **“~하다”**로 해석됩니다. (예: He is happy. ➔ 그는 행복하다.)
+        </div>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="level-title">■ LEVEL 2 (중등 2학년 수준: 인칭·시제에 따른 변화와 대동사)</div>
+    
+    <div class="q-card">
+        <div class="q-text">3. 주어의 인칭(1, 2, 3인칭)과 수(단수/복수), 그리고 시제(현재/과거/미래)에 따른 be동사의 형태 변화 규칙을 완성하시오.</div>
+        <div class="sub-q">• 주어가 1인칭 단수(I)일 때 현재형과 과거형:</div>
+        <div class="sub-q">• 주어가 3인칭 단수(He/She/It)일 때 현재형과 과거형:</div>
+        <div class="sub-q">• 주어가 복수(We/You/They)일 때 현재형과 과거형:</div>
+        <div class="sub-q">• 모든 인칭 통일, 미래를 나타낼 때 조동사 will 뒤의 형태:</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 1인칭 단수 (I) ➔ 현재: **am** / 과거: **was**<br>
+            • 3인칭 단수 (He/She/It) ➔ 현재: **is** / 과거: **was**<br>
+            • 복수형 (We/You/They) ➔ 현재: **are** / 과거: **were**<br>
+            • 미래 표현 (will 뒤) ➔ 조동사 뒤이므로 무조건 원래 모습인 **[ be ]** (will be)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">4. 앞에 나온 동사 덩어리의 반복을 피하기 위해 대신 쓰는 동사를 '대동사'라고 합니다. 일반동사 반복은 `do/does/did`로 받습니다. 그렇다면 be동사 문장 반복은 무엇으로 받아야 하는지 규칙을 쓰고 예문을 완성하시오.</div>
+        <div class="sub-q">질문: "Are you tired?" ➔ 응, 나 피곤해. (대동사 활용 단축형 정답은?)</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 규칙: 앞에 나온 동사가 be동사 계열일 때는 대동사 역시 **[ be동사 ]**로 그대로 받아야 합니다.<br>
+            • 정답: **"Yes, I am."** (Yes, I do. ❌ / 뒤에 tired가 생략된 구조이므로 am이 와야 함)
+        </div>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="level-title">■ LEVEL 3 (중등 3학년 수준: 심화 문법 공식 속 '조동사'로서의 be동사)</div>
+    
+    <div class="q-card">
+        <div class="q-text">5. [진행형과 수동태] be동사는 다른 동사 뒤에 `-ing`나 `-ed(p.p.)`를 달고 나와 거대한 심화 문법 공식을 만듭니다. 이때 be동사는 진짜 동사가 아니라 뒤의 동사를 돕는 '조동사' 역할을 합니다. 두 공식을 쓰시오.</div>
+        <div class="sub-q">(A) 지금 능동적으로 ~하는 중이다 [현재진행 시제] 공식:</div>
+        <div class="sub-q">(B) 주인공이 행동을 당하다 [수동태] 공식:</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) 현재진행형: **[ be동사 + 현재분사(동사원형-ing) ]**<br>
+            • (B) 수동태: **[ be동사 + 과거분사(p.p.) ]**
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">6. [최상위 내신 단골: 가정법] 현재 사실과 반대되는 일을 상상하는 '가정법 과거' 구문에서는 주어가 단수(I, He, She)일지라도 회화체가 아닌 정통 문법 시험에서 be동사 과거형을 '이 단어'로 통일하여 쓰는 대원칙이 있습니다. 무엇인지 쓰시오.</div>
+        <div class="sub-q">예문: 내가 만약 새라면, 너에게 날아갈 텐데. ➔ If I ( &nbsp;&nbsp;&nbsp;&nbsp; ) a bird, I would fly to you.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 정답 단어: **[ were ]**<br>
+            • 이유: 가정법 과거 규칙상 주어의 인칭이나 수에 상관없이 be동사는 원칙적으로 **were**를 사용합니다. (If I **were** ~, If he **were** ~)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">7. [분사구문의 생략] 중3 내신에 등장하는 분사구문 만들기 대원칙에서, 부사절의 동사가 be동사여서 분사구문 맨 앞에 **‘이 형태’**로 바뀌어 남게 되면 문장에서 세트로 통째로 생략할 수 있습니다. 이 형태는 무엇인지 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 정답 형태: **[ Being ]** (또는 완료 분사구문일 때 **Having been**)<br>
+            • 특징: 분사구문 맨 앞의 Being은 생략이 가능하므로, 뒤에 형용사나 명사, 혹은 과거분사(p.p.)만 덜렁 남는 특이한 문장 구조가 만들어집니다.
+        </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; padding:20px; color:#2b4c7e; font-weight:bold; font-size:10pt;">
+        가장 기초적인 be동사에서 시작해 최고 난도 구문까지 꿰뚫었습니다. 수고하셨습니다!
+    </div>
+
+    <!-- 정답 보이기/숨기기 자바스크립트 -->
+    <script>
+        function toggleAns(button) {
+            var ansBox = button.nextElementSibling;
+            if (ansBox.style.display === "block") {
+                ansBox.style.display = "none";
+                button.innerText = "정답 보기";
+                button.style.backgroundColor = "#2b4c7e";
+            } else {
+                ansBox.style.display = "block";
+                button.innerText = "정답 접기";
+                button.style.backgroundColor = "#e74c3c";
+            }
+        }
+    </script>
+</body>
+</html>
