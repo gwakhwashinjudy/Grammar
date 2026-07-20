@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[준동사 종합편] 영문법 이론 마스터 Test</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; color: #333; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f8fafc; }
+        .header { border: 2px solid #2b4c7e; padding: 15px; margin-bottom: 25px; background-color: #f4f7fa; text-align: center; border-radius: 6px; }
+        .title { font-size: 16pt; font-weight: bold; color: #2b4c7e; margin: 0; }
+        .sub { font-size: 10pt; color: #555; margin-top: 5px; }
+        
+        .level-title { font-size: 12pt; font-weight: bold; color: #fff; background-color: #2b4c7e; padding: 8px 12px; margin-top: 30px; margin-bottom: 15px; border-radius: 4px; }
+        .q-card { background: #fff; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .q-text { font-weight: bold; color: #111; font-size: 11pt; margin-bottom: 10px; }
+        .sub-q { margin-left: 10px; margin-bottom: 5px; color: #444; }
+        
+        /* 버튼 스타일 */
+        .btn-next { background-color: #2b4c7e; color: white; border: none; padding: 6px 12px; font-size: 9.5pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 8px; display: inline-block; }
+        .btn-next:hover { background-color: #1a365d; }
+        
+        /* 정답 상자 스타일 */
+        .ans-box { display: none; margin-top: 12px; padding: 12px; background-color: #fff5f5; border-left: 4px solid #e74c3c; border-radius: 0 4px 4px 0; color: #c0392b; font-weight: bold; font-size: 10pt; }
+        .ans-box ul { margin: 5px 0 0 0; padding-left: 20px; }
+        .ans-box li { margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">[중1-중3 준동사 종합] 영문법 개념 정복 Test</div>
+        <div class="sub">“동사의 피가 흐르지만 문장 안에서 다른 품사로 살아가는 변신 천재들”</div>
+    </div>
+
+    <!-- LEVEL 1 -->
+    <div class="level-title">■ LEVEL 1: 준동사 3형제의 변신 품사와 문장 내 쓰임</div>
+    
+    <div class="q-card">
+        <div class="q-text">1. [to부정사]의 변신 품사 3가지와 문장 내 쓰임(자리)을 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • <strong>변신 가능 품사:</strong> 명사, 형용사, 부사 (아직 정해지지 않음)<br>
+            • <strong>문장 내 쓰임:</strong>
+            <ul>
+                <li>명사로 쓰일 때: 주어, 목적어, 보어 자리</li>
+                <li>형용사로 쓰일 때: 명사 뒤에서 앞의 명사를 수식하는 자리</li>
+                <li>부사로 쓰일 때: 동사, 형용사 등을 수식하는 자리 (목적, 감정의 원인 등)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">2. [동명사]의 변신 품사와 문장 내 쓰임(자리)을 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • <strong>변신 가능 품사:</strong> 명사 (동사에 -ing를 붙여 명사로 바꿈)<br>
+            • <strong>문장 내 쓰임:</strong> 명사니까 당연히 **주어, 목적어, 보어** 자리에 들어감.<br>
+            (※ 특히 to부정사와 다르게 '전치사의 목적어(전치사 뒷자리)'로도 아주 잘 쓰임!)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">3. [분사]의 종류 2가지와 변신 품사, 그리고 문장 내 쓰임(자리)을 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • <strong>분사의 종류:</strong> 현재분사(-ing), 과거분사(p.p.)<br>
+            • <strong>변신 가능 품사:</strong> **형용사** (동사를 형용사로 나눈 것)<br>
+            • <strong>문장 내 쓰임:</strong> 
+            <ul>
+                <li>명사를 앞뒤에서 직접 꾸며주는 자리</li>
+                <li>주어나 목적어의 상태를 설명하는 보어 자리 (2형식 보어, 5형식 목적격 보어)</li>
+                <li>시제 공식(be+-ing, have+p.p.)이나 수동태(be+p.p.)의 뼈대가 됨</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="level-title">■ LEVEL 2: 준동사 3형제의 절대 공통점과 결정적 차이점</div>
+    
+    <div class="q-card">
+        <div class="q-text">4. 준동사 3형제(to부정사, 동명사, 분사)가 공유하는 "동사의 성질(공통점)" 4가지를 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            영문법의 대원칙! 다른 품사로 변신했어도 뿌리가 동사라 다음 4가지를 가집니다.
+            <ul>
+                <li>① <strong>목적어나 보어를 가질 수 있다:</strong> 동사 성질 그대로 뒤에 식구를 달고 다님.</li>
+                <li>② <strong>부사의 수식을 받는다:</strong> 명사나 형용사로 변했어도 형용사가 아닌 부사가 꾸며줌.</li>
+                <li>③ <strong>의미상 주어를 가진다:</strong> 문장 주어와 다르면 행동의 주인공을 따로 표시함 (for/of 목적격, 소유격 등).</li>
+                <li>④ <strong>시제와 태가 있다:</strong> 주절보다 과거면 완료형(have+p.p.), 당하는 거면 수동형(be+p.p.) 표현 가능.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">5. 준동사 3형제의 "결정적인 차이점(한계)"은 무엇인지 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • <strong>차이점:</strong> 문장 안에서 수행하는 **'품사 역할'**이 완전히 다릅니다.<br>
+            • <strong>결정적 한계:</strong> 아무리 동사에서 태어났고 동사의 성질을 가졌어도, 문장 안에서 진짜 다짜고짜 다(다)로 끝나는 **'진짜 동사(본동사) 자리'에는 절대로 앉을 수 없습니다.**
+        </div>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="level-title">■ LEVEL 3: 한국어(국어)학적 측면에서의 준동사 비교 분석</div>
+    
+    <div class="q-card">
+        <div class="q-text">6. 한국어(국어)에도 영어의 준동사와 완벽하게 일치하는 문법적 "공통점"이 있습니다. 무엇인지 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • <strong>국어의 '어미 변화(활용)'와 일치:</strong> 한국어 동사 '먹다'도 문장에서 명사, 형용사, 부사처럼 쓰이려고 변신합니다.
+            <ul>
+                <li>명사처럼: 먹다 ➔ 먹**기**, 먹**음** (영어의 동명사/to부정사 명사적)</li>
+                <li>형용사처럼: 먹다 ➔ 먹**을** (음식), 먹**는** (사람) (영어의 분사/to부정사 형용사적)</li>
+                <li>부사처럼: 먹다 ➔ 먹**으려고**, 먹**어서** (영어의 to부정사 부사적)</li>
+            </ul>
+            즉, <strong>"동사 원형에 무언가를 붙여 다른 품사처럼 바꾸어 쓴다"</strong>는 본질적인 원리는 국어와 영어 모두 완벽히 같습니다!
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">7. 영어의 준동사와 한국어 변신 동사의 결정적인 "차이점" 2가지를 서술하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            <ul>
+                <li>① <strong>변신 장치(형태)의 차이:</strong> 영어는 단어 **'앞(to)'**이나 **'뒤(-ing)'**에 붙이는 몇 안 되는 장치로 명사/형용사/부사를 다 해먹지만, 한국어는 **'어미(꼬리)'**를 엄청나게 다양하게 바꾸는 다채로운 언어입니다.</li>
+                <li>② <strong>수식 방향의 차이 (가장 중요):</strong> 영어의 준동사는 길어지면 명사 **뒤에서 앞으로** 꾸미지만(something to drink, the boy running there), 한국어는 아무리 길어져도 무조건 명사 **앞에서 뒤로만** 꾸밉니다. ("마실 것", "저기서 달리는 소년")</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; padding:20px; color:#2b4c7e; font-weight:bold; font-size:10pt;">
+        국어와 영어의 구조적 원리를 꿰뚫을 때 비로소 진정한 문법이 완성됩니다!
+    </div>
+
+    <!-- 정답 보이기/숨기기 자바스크립트 -->
+    <script>
+        function toggleAns(button) {
+            var ansBox = button.nextElementSibling;
+            if (ansBox.style.display === "block") {
+                ansBox.style.display = "none";
+                button.innerText = "정답 보기";
+                button.style.backgroundColor = "#2b4c7e";
+            } else {
+                ansBox.style.display = "block";
+                button.innerText = "정답 접기";
+                button.style.backgroundColor = "#e74c3c";
+            }
+        }
+    </script>
+</body>
+</html>
