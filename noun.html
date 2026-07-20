@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[명사편] 영문법 개념 정복 Test</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; color: #333; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f8fafc; }
+        .header { border: 2px solid #2b4c7e; padding: 15px; margin-bottom: 25px; background-color: #f4f7fa; text-align: center; border-radius: 6px; }
+        .title { font-size: 16pt; font-weight: bold; color: #2b4c7e; margin: 0; }
+        .sub { font-size: 10pt; color: #555; margin-top: 5px; }
+        
+        .level-title { font-size: 12pt; font-weight: bold; color: #fff; background-color: #2b4c7e; padding: 8px 12px; margin-top: 30px; margin-bottom: 15px; border-radius: 4px; }
+        .q-card { background: #fff; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .q-text { font-weight: bold; color: #111; font-size: 11pt; margin-bottom: 10px; }
+        .sub-q { margin-left: 10px; margin-bottom: 5px; color: #444; }
+        
+        /* 버튼 스타일 */
+        .btn-next { background-color: #2b4c7e; color: white; border: none; padding: 6px 12px; font-size: 9.5pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 8px; display: inline-block; }
+        .btn-next:hover { background-color: #1a365d; }
+        
+        /* 정답 상자 스타일 (처음엔 숨김) */
+        .ans-box { display: none; margin-top: 12px; padding: 12px; background-color: #fff5f5; border-left: 4px solid #e74c3c; border-radius: 0 4px 4px 0; color: #c0392b; font-weight: bold; font-size: 10pt; }
+        .ans-box ul { margin: 5px 0 0 0; padding-left: 20px; }
+        .ans-box li { margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">[중1-중3 명사편] 영문법 개념 정복 Test</div>
+        <div class="sub">“이름의 진짜 뜻을 알면 영문법이 쉬워진다!”</div>
+    </div>
+
+    <!-- LEVEL 1 -->
+    <div class="level-title">■ LEVEL 1 (중등 1학년 수준: 명사의 본질과 수 세기)</div>
+    
+    <div class="q-card">
+        <div class="q-text">1. '명사(Noun)'의 어휘 뜻을 풀이하고, 명사의 정의를 초등학생에게 설명하듯 쉽게 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 어휘 뜻: 이름 ( 명 ) + 말 ( 사 ) ➔ 이름이 있는 모든 말<br>
+            • 명사의 정의: 세상에 존재하는 모든 사람, 사물, 장소, 혹은 눈에 보이지 않는 것들의 '이름'을 뜻하는 말
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">2. 영어에서 명사를 분류하는 대원칙인 '셀 수 있는가(가산)'와 '셀 수 없는가(불가산)'의 가장 큰 특징 차이를 비교하여 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 셀 수 있는 명사: 혼자 있으면 앞에 ( a ) 나 ( an ) 을 붙이고, 여러 개 있으면 뒤에 ( -s / -es ) 를 붙임.<br>
+            • 셀 수 없는 명사: 뒤에 절대 (-s/-es)를 붙일 수 ( 없다 ).
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">3. 셀 수 없는 명사(물질명사 등)의 수량을 나타내기 위해 빌려 쓰는 '단위 명사 공식'을 완성하고, 다음을 영어로 쓰시오.</div>
+        <div class="sub-q">• 표현 공식: [ 숫자 + ( 괄호 ) + of + 셀 수 없는 명사 ]</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 표현 공식: [ 숫자 + ( 단위명사/그릇 ) + of + 셀 수 없는 명사 ]<br>
+            • 종이 세 장: three ( sheets ) of paper<br>
+            • 빵 두 조각: two ( slices / pieces ) of bread
+        </div>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="level-title">■ LEVEL 2 (중등 2학년 수준: 명사의 세부 종류와 수량 형용사 단짝)</div>
+    
+    <div class="q-card">
+        <div class="q-text">4. 셀 수 없는 명사의 3가지 카테고리를 쓰고, 각각에 속하는 대표적인 단어를 2개씩 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            ① 고유명사 (세상에 하나뿐인 이름) ➔ 예시: Seoul, Tom 등<br>
+            ② 추상명사 (눈에 보이지 않는 개념) ➔ 예시: love, peace, happiness 등<br>
+            ③ 물질명사 (일정한 형태가 없는 재료/액체 등) ➔ 예시: water, milk, bread, paper 등
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">5. 명사의 수(단수/복수)를 꾸며주는 '수량 형용사'의 단짝 관계를 선택하시오.</div>
+        <div class="sub-q">• many, a few, few + 뒤에 오는 명사 형태는?</div>
+        <div class="sub-q">• much, a little, little + 뒤에 오는 명사 형태는?</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • many, a few, few + ( 셀 수 있는 복수명사 )<br>
+            • much, a little, little + ( 셀 수 없는 명사 )<br>
+            • a lot of, lots of, plenty of + ( 둘 다 가능 - 셀 수 있는 복수명사 / 셀 수 없는 명사 모두 옴 )
+        </div>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="level-title">■ LEVEL 3 (중등 3학년 수준: 문맥에 따른 가산성 변화 및 문장성분)</div>
+    
+    <div class="q-card">
+        <div class="q-text">6. [최상위 내신 단골] 영어의 명사는 문맥에 따라 '셀 수 있는 명사'로도, '셀 수 없는 명사'로도 변신합니다. 다음 두 문장의 뜻 차이를 서술하시오.</div>
+        <div class="sub-q">(A) She has beautiful hair.</div>
+        <div class="sub-q">(B) There is a hair in my soup!</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) She has beautiful hair. ➔ 뜻: 그녀는 아름다운 (머리카락 전체/머릿결)을 가졌다. (형체가 없는 물질 취급 ➔ 셀 수 없음)<br>
+            • (B) There is a hair in my soup! ➔ 뜻: 내 스프에 (머리카락 한 가닥)이 들어있어! (개수 분리가 가능한 낱개 취급 ➔ 셀 수 있음)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">7. 집합명사(family, class 등)를 '하나의 덩어리'로 보느냐 '구성원 개개인'으로 보느냐에 따라 단수/복수 취급이 달라집니다. 알맞은 be동사 현재형(is / are)을 쓰시오.</div>
+        <div class="sub-q">(A) My family ( &nbsp;&nbsp;&nbsp;&nbsp; ) a large one. [가족이라는 하나의 단위]</div>
+        <div class="sub-q">(B) My family ( &nbsp;&nbsp;&nbsp;&nbsp; ) all watching TV. [가족 구성원 한 명 한 명]</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) My family ( is ) a large one. (덩어리 단수 취급)<br>
+            • (B) My family ( are ) all watching TV. (구성원 복수 취급)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">8. 문장 성분(의자)과 품사(재료)의 관점에서, '명사'라는 재료가 문장 안에서 앉을 수 있는 핵심 의자(문장 성분) 3가지를 기호와 이름으로 모두 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            ➔ ① 주어 (S) &nbsp;&nbsp; ② 목적어 (O) &nbsp;&nbsp; ③ 보어 (C) <br>
+            (※ 명사는 문장에서 주어, 목적어, 보어 자리에만 들어갈 수 있습니다.)
+        </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; padding:20px; color:#2b4c7e; font-weight:bold; font-size:10pt;">
+        개념의 본질을 꿰뚫는 자가 문법을 지배합니다. 수고하셨습니다!
+    </div>
+
+    <!-- 정답 보이기/숨기기 자바스크립트 -->
+    <script>
+        function toggleAns(button) {
+            var ansBox = button.nextElementSibling;
+            if (ansBox.style.display === "block") {
+                ansBox.style.display = "none";
+                button.innerText = "정답 보기";
+                button.style.backgroundColor = "#2b4c7e";
+            } else {
+                ansBox.style.display = "block";
+                button.innerText = "정답 접기";
+                button.style.backgroundColor = "#e74c3c"; // 정답이 열리면 빨간색으로 변경
+            }
+        }
+    </script>
+</body>
+</html>
