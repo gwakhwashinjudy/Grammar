@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[to부정사편] 영문법 개념 정복 Test</title>
+    <style>
+        body { font-family: 'Malgun Gothic', sans-serif; color: #333; line-height: 1.6; padding: 20px; max-width: 800px; margin: 0 auto; background-color: #f8fafc; }
+        .header { border: 2px solid #2b4c7e; padding: 15px; margin-bottom: 25px; background-color: #f4f7fa; text-align: center; border-radius: 6px; }
+        .title { font-size: 16pt; font-weight: bold; color: #2b4c7e; margin: 0; }
+        .sub { font-size: 10pt; color: #555; margin-top: 5px; }
+        
+        .level-title { font-size: 12pt; font-weight: bold; color: #fff; background-color: #2b4c7e; padding: 8px 12px; margin-top: 30px; margin-bottom: 15px; border-radius: 4px; }
+        .q-card { background: #fff; border: 1px solid #e2e8f0; padding: 20px; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .q-text { font-weight: bold; color: #111; font-size: 11pt; margin-bottom: 10px; }
+        .sub-q { margin-left: 10px; margin-bottom: 5px; color: #444; }
+        
+        /* 버튼 스타일 */
+        .btn-next { background-color: #2b4c7e; color: white; border: none; padding: 6px 12px; font-size: 9.5pt; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 8px; display: inline-block; }
+        .btn-next:hover { background-color: #1a365d; }
+        
+        /* 정답 상자 스타일 */
+        .ans-box { display: none; margin-top: 12px; padding: 12px; background-color: #fff5f5; border-left: 4px solid #e74c3c; border-radius: 0 4px 4px 0; color: #c0392b; font-weight: bold; font-size: 10pt; }
+        .ans-box ul { margin: 5px 0 0 0; padding-left: 20px; }
+        .ans-box li { margin-bottom: 4px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="title">[중1-중3 to부정사편] 영문법 개념 정복 Test</div>
+        <div class="sub">“역할이 정해지지 않아 무엇으로든 변하는 변신의 천재”</div>
+    </div>
+
+    <!-- LEVEL 1 -->
+    <div class="level-title">■ LEVEL 1 (중등 1학년 수준: 이름 뜻과 3가지 기본 용법)</div>
+    
+    <div class="q-card">
+        <div class="q-text">1. to부정사에서 '부정(不定)'은 No(아니다)의 뜻이 아닙니다. 한자의 의미를 살려 왜 이런 이름이 붙었는지 초등학생도 이해하게 설명하시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 정답: 아닐 ( 부 ) + 정할 ( 정 ) ➔ **역할이 딱 하나로 정해지지 않았다**는 뜻이야!<br>
+            동사 앞에 to를 붙여서 문장에 따라 **[명사], [형용사], [부사]** 세 가지 옷으로 마음대로 바꾸어 입을 수 있어서 붙은 이름이란다.
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">2. to부정사가 [명사]의 옷을 입었을 때(명사적 용법)의 해석 방법과, 문장에서 들어갈 수 있는 핵심 자리(문장 성분) 3가지를 쓰시오.</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 해석 방법: **“~하는 것”** 또는 **“~하기”**<br>
+            • 문장 성분 3가지: **주어(S), 목적어(O), 보어(C)** 자리에 들어감.
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">3. to부정사가 [형용사]의 옷을 입었을 때(형용사적 용법)의 결정적인 특징 2가지(수식 방향, 해석)를 완성하시오.</div>
+        <div class="sub-q">(A) 형용사는 명사 친구를 꾸며줘요. 이때 to부정사는 명사의 어디에 위치하나요? (앞 / 뒤)</div>
+        <div class="sub-q">(B) 우리말로 보통 어떻게 해석되나요?</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) 반드시 명사의 **[ 뒤 ]**에서 앞으로 꾸며줍니다. (예: something to drink)<br>
+            • (B) 우리말로 보통 **“~할”** 또는 **“~하는”**으로 해석됩니다.
+        </div>
+    </div>
+
+    <!-- LEVEL 2 -->
+    <div class="level-title">■ LEVEL 2 (중등 2학년 수준: 부사적 용법 구별 및 구조적 특징)</div>
+    
+    <div class="q-card">
+        <div class="q-text">4. to부정사가 [부사]의 옷을 입으면(부사적 용법) 문맥에 따라 뜻이 다양해집니다. 내신에 가장 많이 나오는 3가지 핵심 뜻과 힌트를 연결하시오.</div>
+        <div class="sub-q">① 목적 (~하기 위해서) ➔ 짝꿍 부사구 세트 2가지?</div>
+        <div class="sub-q">② 감정의 원인 (~해서 기쁘다/슬프다) ➔ to부정사 바로 앞에 어떤 단어가 올까?</div>
+        <div class="sub-q">③ 결과 (~해서 결국 -가 되었다) ➔ 함께 자주 쓰이는 대표 동사 3가지?</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • ① 목적 짝꿍: **in order to + 동사원형**, **so as to + 동사원형**<br>
+            • ② 감정의 원인 힌트: to부정사 바로 앞에 **[감정을 나타내는 형용사]**(happy, sad, glad, surprised 등)가 옵니다.<br>
+            • ③ 결과 대표 동사: **live** (살아서 결국 ~가 되다), **grow up** (자라서 결국 ~가 되다), **wake up** (깨어나 보니 결국 ~임을 알게 되다)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">5. [가짜와 진짜] 주어 자리에 to부정사 덩어리가 너무 길게 오는 것을 싫어해서 쓰는 문장 구조가 있습니다. 빈칸을 채우시오.</div>
+        <div class="sub-q">• 원래 주어 자리에 가짜 주인공인 ( &nbsp;&nbsp;&nbsp;&nbsp; )을 앉히고, 진짜 주어인 to부정사는 문장 ( 맨 앞 / 맨 뒤 )로 보낸다.</div>
+        <div class="sub-q">• 이때 쓰는 가짜 주어의 문법 이름과 진짜 주어의 문법 이름은?</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • 빈칸 정답: 가짜 주인공 **( It )** / 진짜 주어는 문장 **[ 맨 뒤 ]**로 보낸다.<br>
+            • 문법 이름: **가주어 It / 진주어 to부정사** 구문
+        </div>
+    </div>
+
+    <!-- LEVEL 3 -->
+    <div class="level-title">■ LEVEL 3 (중등 3학년 수준: 의미상 주어 및 심화 서술형 대용)</div>
+    
+    <div class="q-card">
+        <div class="q-text">6. [의미상 주어] to부정사 속 행동을 '누가' 하는지 진짜 주인공을 밝혀주고 싶을 때 앞에 쓰는 공식입니다. 두 전치사의 결정적인 사용 기준을 서술하시오.</div>
+        <div class="sub-q">(A) [ for + 목적격 + to부정사 ]를 쓰는 대다수의 기준:</div>
+        <div class="sub-q">(B) [ of + 목적격 + to부정사 ]를 꼭 써야 하는 예외 기준:</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • (A) **for + 목적격**: 앞에 오는 형용사가 일반적인 성질이나 상황일 때 씁니다. (easy, hard, important, necessary 등)<br>
+            • (B) **of + 목적격**: 앞에 오는 형용사가 **[사람의 성격, 성질, 태도에 대한 칭찬이나 비판]**일 때 씁니다. (kind, wise, nice, clever, foolish, careless 등)
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">7. [핵심 서술형 단골] 중3 내신에서 문장 바꾸기(전환)로 무조건 나오는 두 구문입니다. 정답과 해석 원리를 완성하시오.</div>
+        <div class="sub-q">① too ~ to... ➔ 너무 ~해서 ...할 수 ( 있다 / 없다 ) ➔ 대용 접속사 구문: [ so ~ that + 주어 + ( &nbsp;&nbsp;&nbsp;&nbsp; ) ]</div>
+        <div class="sub-q">② ~ enough to... ➔ ...할 만큼 충분히 ~하다 ➔ 대용 접속사 구문: [ so ~ that + 주어 + ( &nbsp;&nbsp;&nbsp;&nbsp; ) ]</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            • ① too ~ to...: 너무 ~해서 ...할 수 **[ 없다 ]** ➔ **so ~ that + 주어 + can't (과거면 couldn't)**<br>
+            • ② ~ enough to...: ...할 만큼 충분히 ~하다 ➔ **so ~ that + 주어 + can (과거면 could)**
+        </div>
+    </div>
+
+    <div class="q-card">
+        <div class="q-text">8. [완료 부정사] 문장 전체의 원래 시제(주절)보다, to부정사가 나타내는 행동이 '더 과거(먼저 일어난 일)'일 때 형태를 어떻게 써야 하는지 적으시오.</div>
+        <div>➔ 기본 형태: to + ( &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )</div>
+        <button class="btn-next" onclick="toggleAns(this)">정답 보기</button>
+        <div class="ans-box">
+            ➔ 정답 형태: to + **[ have + p.p. ]**<br>
+            (예: He seems to have been rich. ➔ 그가 [과거에] 부자였던 것처럼 [지금] 보인다.)
+        </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px; padding:20px; color:#2b4c7e; font-weight:bold; font-size:10pt;">
+        천재의 변신 과정을 완벽히 지배한 당신, 영문법의 정점에 섰습니다!
+    </div>
+
+    <!-- 정답 보이기/숨기기 자바스크립트 -->
+    <script>
+        function toggleAns(button) {
+            var ansBox = button.nextElementSibling;
+            if (ansBox.style.display === "block") {
+                ansBox.style.display = "none";
+                button.innerText = "정답 보기";
+                button.style.backgroundColor = "#2b4c7e";
+            } else {
+                ansBox.style.display = "block";
+                button.innerText = "정답 접기";
+                button.style.backgroundColor = "#e74c3c";
+            }
+        }
+    </script>
+</body>
+</html>
